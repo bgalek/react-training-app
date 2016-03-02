@@ -6,6 +6,7 @@ import jsdom from "jsdom";
 chai.use(sinonChai);
 
 global.expect = chai.expect;
+global.assert = chai.assert;
 global.sinon = sinon;
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
 global.window = document.defaultView;
