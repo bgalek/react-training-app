@@ -2,7 +2,7 @@
   "name": "react-training-app",
   "version": "1.0.0",
   "description": "",
-  "main": "config.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "server": "webpack-dev-server --config webpack.config.js",
