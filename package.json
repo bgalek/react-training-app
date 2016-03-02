@@ -4,7 +4,9 @@
   "description": "",
   "main": "config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --config webpack.config.js",
+    "test": "mocha ./client/scripts/test --compilers js:babel-core/register --recursive --require ./client/scripts/test/setup.js"
   },
   "repository": {
     "type": "git",
